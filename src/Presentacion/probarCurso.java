@@ -1,8 +1,7 @@
-package coches;
+package Presentacion;
 
 
 import modelo.Curso;
-import modelo.Usuario;
 
 public class probarCurso {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class probarCurso {
         System.out.println(c1.mostrarInformacion());
 
 
-        ///usuario
+        
 
     }
 }
