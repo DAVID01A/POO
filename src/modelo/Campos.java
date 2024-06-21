@@ -13,6 +13,10 @@ public class Campos {
         return ++x;
     }
     //constructor
+
+    public Campos() {
+    }
+
     public Campos(int x) {
         this.x = x;
     }
