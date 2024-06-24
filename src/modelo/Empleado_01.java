@@ -1,14 +1,13 @@
 package modelo;
 
-public class Empleado_01 {
+public abstract class Empleado_01 {
 
     protected String nombre;
     protected double sueldo;
-    protected Double porcentaje = 0.75;
-    public double calcularNomina() {
-        return 0 ;
-    }
-    // constructores
+    protected final double porcentaje = 0.75;
+
+    public abstract double calcularNomina();
+    //constructores
 
     public Empleado_01() {
     }

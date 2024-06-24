@@ -1,11 +1,9 @@
 package modelo;
 
-public class InstrumentoMusical {
+public abstract class InstrumentoMusical {
     protected String marca;
 
-    public String emiteSonido(){
-        return "" ;
-    }
+    public abstract String emiteSonido();
     //cosntructor
 
     public InstrumentoMusical() {

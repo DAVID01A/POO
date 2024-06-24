@@ -21,9 +21,7 @@ public class probarInstrumentoMusical {
             System.out.println("... ");
             System.out.println(elemento.getClass());
             System.out.println(elemento.emiteSonido());
-
+            System.out.println(elemento.getMarca());
         }
-
-
     }
 }
